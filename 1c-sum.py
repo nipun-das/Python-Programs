@@ -14,8 +14,7 @@ while (num > 0):
     print(a[j])
     j = j + 1
     num = num-1
-avg = sum/n
-print("Avg = ", avg)
+print("Sum= ", sum)
 
 '''
 Enter no. of elements in list : 5
@@ -30,6 +29,6 @@ List :  [1, 2, 3, 4, 5]
 3
 4
 5
-Avg =  3.0
+Sum=  15
 
 '''
