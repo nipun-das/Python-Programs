@@ -9,10 +9,10 @@ print(list)
 
 f = 0
 key = int(input("Enter the key : "))
-for i in range(0,n):
-    if key== list[i]:
-        print("Found at location : ",(i+1))
+for i in range(0, n):
+    if key == list[i]:
+        print("Found at location : ", (i+1))
         f = 1
         break
-if f==0:
+if f == 0:
     print("Not found!")
