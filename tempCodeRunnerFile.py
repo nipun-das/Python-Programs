@@ -1,3 +1,1 @@
-
-# n = 12345
-# print(getSum(n))
+int(num/2)+1
