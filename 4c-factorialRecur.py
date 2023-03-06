@@ -7,5 +7,4 @@ def recur_factorial(n):
     else:
         return n * recur_factorial(n - 1)
 
-
 print("The factorial of", n, "is", recur_factorial(n))
