@@ -19,19 +19,35 @@ print("M1 ---> The reverse of", intege, "is", rev)
 
 print()
 
+###################################################################
+
 # method 2 - considering input as string
 integerStr = str(intege)
 
 rev_num = integerStr[::-1]
 print("M2 ---> The reverse of", integerStr, "is", rev_num)
 
+print()
 
-'''
+###################################################################
 
-Enter integer : 12340563
+# method 3 - without slicing
+integerStr = str(intege)
+revv = ""
 
-M1 ---> The reverse of 12340563 is 36504321
+for i in range(len(integerStr) - 1, -1, -1):
+    revv += integerStr[i]
+print("M3 ---> The reverse of", integerStr, "is", revv)
 
-M2 ---> The reverse of 12340563 is 36504321
 
-'''
+"""
+
+Enter integer : 12340000
+
+M1 ---> The reverse of 12340000 is 4321
+
+M2 ---> The reverse of 12340000 is 00004321
+
+M3 ---> The reverse of 12340000 is 00004321
+
+"""
