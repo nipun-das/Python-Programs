@@ -1,7 +1,6 @@
 integer = int(input("Enter integer : "))
 intege = integer
 
-
 # 2 ways to do
 
 # method 1 - considering input as integer
