@@ -8,7 +8,6 @@ def change_first_char(str):
     new_string = first_char + str[1:].replace(first_char, "$")
     return new_string
 
-
 str = input("Enter a string: ")
 modified = change_first_char(str)
 print("New string:", modified)
