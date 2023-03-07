@@ -11,4 +11,5 @@ for i in range(0, len(list)):
     if max < list[i]:
         max = list[i]
 
+
 print("Max in list is : ", max)
