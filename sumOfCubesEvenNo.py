@@ -1,3 +1,5 @@
+# find the sum of cubes of all positive even numbers within a given range.
+
 import math
 
 lower = int(input("Enter lower limit : "))
