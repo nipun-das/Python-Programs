@@ -1,13 +1,15 @@
-dict = {"k1": 1, "k2": 2, "k3": 10, "k4": 4, "k5": 5}
+dict = {"nissan": 1, "toyota": 2, "bmw": 10, "volkswagen": 4, "skoda": 5}
 
 max = None
 min = None
 
-for (key, value) in dict:
+for key, value in dict.items():
     if max is None or value > max:
         max = value
+        keymax = key
     if min is None or value < min:
         min = value
-        
-print("Max : ",max)
-print("Min : ",min)
+        keymin = key
+
+print("Min :", min, "for key :", keymin)
+print("Max :", max, "for key :", keymax)
