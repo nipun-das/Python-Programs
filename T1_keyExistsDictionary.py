@@ -6,9 +6,7 @@ key_check = input("Enter the key to check : ")
 
 for key in dict:
     if key_check == key:
-        f = 1
+        print("Yes,", key_check, "exists!")
         break
-if f == 1:
-    print("Yes,", key_check, "exists!")
 else:
     print("No,", key_check, "does not exist!")
