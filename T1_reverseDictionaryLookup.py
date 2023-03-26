@@ -5,7 +5,7 @@ def reverse_lookup(dict, value):
             keys.append(key)
     return keys
 
-my_dict = {"apple": 1, "banana": 2, "orange": 3, "kiwi": 2}
-result = reverse_lookup(my_dict, 2)
-print(result)
 
+dict = {"apple": 1, "banana": 2, "orange": 3, "grapes": 2}
+result = reverse_lookup(dict, 2)
+print(result)
