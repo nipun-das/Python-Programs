@@ -7,5 +7,8 @@ def reverse_lookup(dict, value):
 
 
 dict = {"apple": 1, "banana": 2, "orange": 3, "grapes": 2}
-result = reverse_lookup(dict, 2)
+
+value = int(input("Enter the value to lookup : "))
+
+result = reverse_lookup(dict, value)
 print(result)
