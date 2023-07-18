@@ -11,9 +11,7 @@ class TextField(EasyFrame):
         self.addLabel(text="Output", row=1, column=0)
         self.outputField = self.addTextField(text="", row=1, column=1, state="readonly")
 
-        self.addButton(
-            text="Convert", row=2, column=0, columnspan=2, command=self.convert
-        )
+        self.addButton(text="Convert", row=2, column=0, columnspan=2, command=self.convert)
 
     def convert(self):
         text = self.inputField.getText()
