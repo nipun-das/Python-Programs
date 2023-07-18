@@ -20,8 +20,8 @@ def blur(image):
             top = image.getPixel(x, y - 1)
             bottom = image.getPixel(x, y + 1)
             sum = reduce(tripleSum, [oldPixel, left, right, top, bottom])
-        avg = tuple(map(lambda x: x // 5, sum))
-        new.setPixel(x, y, avg)
+    avg = tuple(map(lambda x: x // 5, sum))
+    new.setPixel(x, y, avg)
     return new
     
 
